@@ -4,7 +4,18 @@ Using [chatstream](https://github.com/wch/chatstream/tree/main) to show how easy
 
 ## Getting Setup
 
+### Load a `virtualenv`
+
 Make sure you have a `virtualenv` loaded!
+
+For example:
+
+```
+/opt/python/3.12.3/bin/python -m venv ./venv
+source ./venv/bin/activate
+```
+
+### Install packages
 
 Install packages (just `chatstream` and its dependencies, like `shiny`)
 
@@ -17,14 +28,14 @@ Then determine the `OPENAI_URL` for your OpenAI target.
 
 ### Personal Use
 ```
-OPENAI_URL=https://api.openai.com/v1/
+echo "OPENAI_URL=https://api.openai.com/v1/" > .env
 ```
 
-Make sure to set an `OPENAI_API_KEY` in your environment.
+Make sure to set an `OPENAI_API_KEY` in your environment too.
 
 ### Workshops
 ```
-OPENAI_URL=http://openai.ai.svc.cluster.local
+echo "OPENAI_URL=http://openai.ai.svc.cluster.local" > .env
 ```
 
 Authentication is handled for you!

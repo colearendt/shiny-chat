@@ -4,7 +4,7 @@ appdirs==1.4.4
 asgiref==3.8.1
 certifi==2024.8.30
 charset-normalizer==3.3.2
-chatstream @ git+https://github.com/wch/chatstream.git@a2a1e41354cd811f5eedaabbb728e46324689abb
+chatstream @ git+https://github.com/colearendt/chatstream.git@638382b7187a46da1eab0003f18714d3bc2ea5d5
 click==8.1.7
 distro==1.9.0
 h11==0.14.0
@@ -22,6 +22,7 @@ packaging==24.1
 prompt-toolkit==3.0.36
 pydantic==2.9.1
 pydantic_core==2.23.3
+python-dotenv==1.0.1
 python-multipart==0.0.9
 questionary==2.0.1
 regex==2024.9.11
