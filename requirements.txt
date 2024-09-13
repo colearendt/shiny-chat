@@ -1,2 +1,2 @@
-chatstream @ git+https://github.com/colearendt/chatstream.git@638382b7187a46da1eab0003f18714d3bc2ea5d5
+chatstream @ git+https://github.com/colearendt/chatstream.git@b7db53ccf37b6941f5424be89505e1f19a27af60
 python-dotenv==1.0.1
