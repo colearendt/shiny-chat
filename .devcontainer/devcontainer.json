@@ -2,5 +2,15 @@
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"features": {
 		"ghcr.io/va-h/devcontainers-features/uv:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"posit.publisher",
+				"ms-python.python",
+				"Posit.shiny",
+				"posit.shinyuieditor"
+			]
+		}
 	}
 }
