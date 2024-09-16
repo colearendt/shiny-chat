@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/colearendt/shiny-chat?quickstart=1)
+
 # Shiny Chat
 
 Using [chatstream](https://github.com/wch/chatstream/tree/main) to show how easy an OpenAI chat app is!!
